@@ -5,6 +5,7 @@
     tags,
     created_at,
     updated_at,
+    username,
   }) => ({
     id,
     title,
@@ -12,6 +13,7 @@
     tags,
     createdAt: created_at,
     updatedAt: updated_at,
+    username,
   });
    
   module.exports = { mapDBToModel };
